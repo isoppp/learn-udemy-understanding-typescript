@@ -1,0 +1,17 @@
+{
+  "name": "learn-udemy-understanding-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.2.2",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc *.ts",
+    "watch": "tsc *.ts -w",
+    "start": "yarn build && lite-server"
+  }
+}
