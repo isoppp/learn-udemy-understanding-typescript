@@ -10,8 +10,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc *.ts",
-    "watch": "tsc *.ts -w",
+    "build": "tsc -p ./tsconfig.json",
+    "watch": "tsc -p ./tsconfig.json -w",
     "start": "yarn build && lite-server"
   }
 }
